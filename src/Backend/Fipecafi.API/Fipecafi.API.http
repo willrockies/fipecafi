@@ -1,0 +1,6 @@
+@Fipecafi.API_HostAddress = http://localhost:5105
+
+GET {{Fipecafi.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
