@@ -11,13 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\Shared\Fipecafi.Communication\Fipecafi.Communication.csproj" />
     <ProjectReference Include="..\..\Shared\Fipecafi.Exceptions\Fipecafi.Exceptions.csproj" />
     <ProjectReference Include="..\Fipecafi.Application\Fipecafi.Application.csproj" />
+    <ProjectReference Include="..\Fipecafi.Infrastructure\Fipecafi.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
